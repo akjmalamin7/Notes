@@ -4,7 +4,7 @@
 
  ### `yarn config set nodeLinker node-modules --home`
 
-## Yarn পরিবর্তন ঠিকভাবে কার্যকর হয়েছে কিনা তা যাচাই করতে নিচের কমান্ডটি চালান:
+## Check yarn change or not:
 
  ### `yarn config get nodeLinker`
 

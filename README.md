@@ -1,14 +1,9 @@
-## YARN
+#### Yarn
+| Yarn node-modules -home |`yarn config set nodeLinker node-modules --home`|
+|------| -------|
+| Yarn pnp --home | `yarn config set nodeLinker pnp --home` |
+| Check yarn change or not | `yarn config get nodeLinker` |
+| key | `value` |
+| Yarn update | `yarn set version stable` |
 
-## Yarn  node-modules --home:
-
- ### `yarn config set nodeLinker node-modules --home`
-
-## Check yarn change or not:
-
- ### `yarn config get nodeLinker`
-
- ## Yarn update
- ### `yarn set version stable`
- ## Yarn pnp --home
-### `yarn config set nodeLinker pnp --home`
+#

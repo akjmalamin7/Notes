@@ -1,0 +1,1 @@
+#Yarn গ্লোবাল কনফিগারেশনে nodeLinker ফিল্ডকে node-modules এ সেট করুন:

@@ -3,7 +3,4 @@
 |------| -------|
 | Yarn pnp --home | `yarn config set nodeLinker pnp --home` |
 | Check yarn change or not | `yarn config get nodeLinker` |
-| key | `value` |
 | Yarn update | `yarn set version stable` |
-
-#

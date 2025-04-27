@@ -11,6 +11,7 @@
 | Install a Package          | `yarn add vite-tsconfig-paths -D`                                       |
 | -------------------------- | ----------------------------------------------------------------------- |
 | import into vite.config.ts | `import tsConfigPaths from "vite-tsconfig-paths"`                       |
+| import into vite.config.ts | `import path from "path"`                                               |
 | use into the the plugins:  | ` plugins: [tsConfigPaths()]`                                           |
 | In tsconfig.json files     | `  "compilerOptions": {"baseUrl": ".","paths": { "@/*": ["./src/*"] }}` |
 | In tsconfig.app.json files | `"baseUrl": ".","paths": { "@/*": ["./src/*"] }}`                       |

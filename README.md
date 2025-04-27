@@ -14,3 +14,4 @@
 | use into the the plugins:  | ` plugins: [tsConfigPaths()]`                                           |
 | In tsconfig.json files     | `  "compilerOptions": {"baseUrl": ".","paths": { "@/*": ["./src/*"] }}` |
 | In tsconfig.app.json files | `"baseUrl": ".","paths": { "@/*": ["./src/*"] }}`                       |
+| use vite.config.ts         | `resolve: { alias: {"@": path.resolve(__dirname, "./src"),},}`          |
